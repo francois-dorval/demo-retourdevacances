@@ -3,7 +3,7 @@ package com.example.demoretourdevacances;
 public class Coucou {
     public String message;
 
-    public Coucou(String message) {
+    public Cou cou(String message) {
         this.message = message;
     }
 
