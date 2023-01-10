@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MonSuperController {
 
-    @RequestMapping(path = "/toto", method = RequestMethod.GET)
+    @RequestMapping(path = "/tutu", method = RequestMethod.GET)
     public ResponseEntity<Coucou> getToto() {
         return new ResponseEntity(new Coucou("salut"), HttpStatus.OK);
 
